@@ -1,0 +1,293 @@
+body {
+  width: 21cm !important;
+  height: 29.7cm !important;
+  font-family: 'Montserrat', sans-serif;
+}
+ h1 {
+   position: relative;
+   top: 2vh;
+   color: white;
+   font-size: 8vh;
+   text-align: center;
+   font-weight: 300;
+ }
+
+ h2 {
+   padding-left: 2vh;
+ }
+
+ h5 {
+  font-size: 2vh;
+ }
+
+ p {
+   padding-left: 2vh;
+ }
+
+ li p {
+   padding-left: 0vh;
+ }
+
+ ul {
+   padding-left: 4vh;
+ }
+
+ #leftCol i {
+   position: relative;
+   top: 0.5vh;
+   color: #071c36;
+   opacity: 1 !important;
+   padding-right: 2vh;
+
+ }
+
+ #topCol h3 {
+   color: white;
+   opacity: 0.7;
+   position: relative;
+   top: 3.5vh;
+   font-size: 2.5vh;
+   margin-top: -1.9vh;
+   text-align: center;
+ }
+
+ #leftCol h3 {
+   color: white;
+   padding-left: 2vh;
+   opacity: 0.7;
+   font-size: 3vh;
+   margin-bottom: 1vh;
+ }
+
+ #leftCol h5 {
+   color: white;
+   padding-left: 2vh;
+   opacity: 0.9;
+ }
+
+ #leftCol h6 {
+   color: white;
+   padding-left: 2vh;
+   opacity: 0.5;
+   font-size: 1.5vh;
+   width: 50%;
+ }
+
+ #profile {
+   margin-top: 5vh;
+ }
+
+ .clarewellTitle {
+  margin-bottom: 0;
+ }
+
+.download {
+  position: relative;
+  bottom: 129vh;
+  left: 50vh;
+}
+
+ #bottomCol h4 {
+  margin-left: 0vh !important;
+ }
+
+ #bottomCol p {
+  margin-left: 0vh !important;
+  font-size: 1.4vh;
+ }
+
+ #bottomCol span {
+   color: #8a8a8a;
+   opacity: 0.9;
+   font-size: 1.5vh;
+ }
+
+ #contact p, #phone span, #location p, #mail p {
+  font-size: 1.5vh;
+ }
+
+#contact {
+  margin-top: 30vh;
+}
+
+
+#phone {
+  color: rgba(252, 254, 255, 0.7);
+  padding-left: 2vh;
+  margin-bottom: 1rem;
+}
+
+#phone span {
+  padding-left: 2vh;
+}
+
+#phone i {
+  padding: 0
+}
+
+#location i {
+  margin-right: 0.7vh;
+}
+
+
+#mail {
+  color: rgba(252, 254, 255, 0.7);
+}
+
+#linkdn a {
+  font-size: 1.2vh;
+  color: white;
+  font-weight: bold;
+}
+
+#github a {
+  font-size: 1.2vh;
+  color: white !important;
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+.skills {
+  color: white;
+  opacity: 0.7;
+}
+
+.skills p {
+  font-size: 1.8vh;
+}
+
+ .headerSeparation {
+   position: initial;
+   margin: 3vh;
+   opacity: 0.3;
+   background-color: white;
+   height: 0.3vh;
+   width: 2vh;
+ }
+
+ .leftColSeparator {
+   position: relative;
+   left: 1vh;
+   opacity: 1;
+   background-color: white;
+   height: 0.3vh;
+   width: 24vh;
+ }
+
+
+.container-fluid {
+  display: table;
+  width: 100%;
+}
+
+#leftCol {
+  padding: 0 0;
+  border: 1px solid black;
+  position: relative;
+  height: 131vh;
+  flex: 0 0 29vh;
+  background: linear-gradient(rgba(43,74,135,0.5), rgba(35,58,106,0.7));
+}
+
+img {
+  width: 28.5vh;
+  height: 28.5vh;
+  position: absolute;
+  align-self: center;
+  border-radius: 20vh;
+}
+
+#topCol {
+  border: 1px solid black;
+  position: relative;
+  flex : 0 0 81.6vh;
+  left: 29vh;
+  background-color: #071c36;
+  height: 6vh;
+  display: inline-flex;
+  padding: 0 2.5vh;
+  bottom: 131.1vh;
+}
+
+#topCol h1 {
+  margin-top: -0.8vh;
+  font-size: 3vh;
+}
+
+#bottomCol {
+  border: 1px solid black;
+  position: relative;
+  flex : 0 0 81.6vh;
+  left: 29vh;
+  padding: 1vh;
+  height: 131.1vh;
+  bottom: 137vh;
+
+}
+
+#bottomCol li ul li{
+  font-size: 1.4vh;
+}
+
+.certificates h5 {
+  font-size: 1.5rem;
+}
+
+.techStack {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+#profile, #workExperience, #recentProjects {
+  margin-bottom: 1rem;
+}
+
+/*Laptop screens*/
+@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px)  {
+  #leftCol {
+    height: 175vh;
+
+  }
+
+  #topCol {
+    bottom: 0vh;
+    left: 0vh;
+  }
+
+  #bottomCol {
+    height: 149.1vh;
+    bottom: 149.1vh;
+  }
+
+  .download {
+    bottom: 147vh;
+  }
+
+}
+
+/*mobile screen*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+#leftCol {
+  height: 175vh;
+
+}
+
+#topCol {
+  bottom: 0vh;
+  left: 0vh;
+}
+
+#bottomCol {
+  height: 149.1vh;
+  bottom: 149.1vh;
+}
+
+.download {
+  bottom: 147vh;
+}
+}
